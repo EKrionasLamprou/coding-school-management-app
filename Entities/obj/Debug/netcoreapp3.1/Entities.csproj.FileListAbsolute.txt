@@ -1,0 +1,10 @@
+C:\Users\ektor\source\repos\Spaghetti-Coding-School\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\ektor\source\repos\Spaghetti-Coding-School\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\ektor\source\repos\Spaghetti-Coding-School\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\ektor\source\repos\Spaghetti-Coding-School\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+C:\Users\ektor\source\repos\Spaghetti-Coding-School\Entities\obj\Debug\netcoreapp3.1\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ektor\source\repos\Spaghetti-Coding-School\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\ektor\source\repos\Spaghetti-Coding-School\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\ektor\source\repos\Spaghetti-Coding-School\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\ektor\source\repos\Spaghetti-Coding-School\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\ektor\source\repos\Spaghetti-Coding-School\Entities\obj\Debug\netcoreapp3.1\Entities.pdb

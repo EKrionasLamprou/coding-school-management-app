@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Input.Fields.Choice" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QwAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Fields\Choice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Input.Fields.Date" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAEAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\Date.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Input.Fields.DateSpan" Collapsed="true">
+    <Position X="7.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wQAAAAAAAAEgAAAAAAgAAAAAAAAAIAAAAAAAgABAAAA=</HashCode>
+      <FileName>Fields\DateSpan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Input.Fields.Field" Collapsed="true">
+    <Position X="5.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAAAAAAQAgRAAAAAkAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\Field.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Input.Fields.FloatNum" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAEAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\FloatNum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Input.Fields.Name" Collapsed="true">
+    <Position X="3" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\Name.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Input.Fields.Number" Collapsed="true">
+    <Position X="0.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAABAAAAAAEAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\Number.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Input.Fields.Text" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAEAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fields\Text.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Input.AskNumber" Collapsed="true">
+    <Position X="12.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAAAAAAQAAAAAAAAAAABAAAAAAAAAAAAAAAABAAAg=</HashCode>
+      <FileName>AskNumber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Input.NumKey" Collapsed="true">
+    <Position X="14" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NumKey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

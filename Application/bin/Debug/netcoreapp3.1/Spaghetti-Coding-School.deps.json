@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Spaghetti-Coding-School/1.0.0": {
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Pages": "1.0.0",
+          "Printer": "1.0.0"
+        },
+        "runtime": {
+          "Spaghetti-Coding-School.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "runtime": {
+          "Entities.dll": {}
+        }
+      },
+      "Input/1.0.0": {
+        "dependencies": {
+          "Printer": "1.0.0"
+        },
+        "runtime": {
+          "Input.dll": {}
+        }
+      },
+      "Pages/1.0.0": {
+        "dependencies": {
+          "Input": "1.0.0",
+          "Printer": "1.0.0"
+        },
+        "runtime": {
+          "Pages.dll": {}
+        }
+      },
+      "Printer/1.0.0": {
+        "runtime": {
+          "Printer2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Spaghetti-Coding-School/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Input/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Pages/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Printer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

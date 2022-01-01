@@ -1,0 +1,9 @@
+C:\Users\ektor\source\repos\spaghetti-coding-school\Input\bin\Debug\Input.dll
+C:\Users\ektor\source\repos\spaghetti-coding-school\Input\bin\Debug\Input.pdb
+C:\Users\ektor\source\repos\spaghetti-coding-school\Input\bin\Debug\Printer2.dll
+C:\Users\ektor\source\repos\spaghetti-coding-school\Input\bin\Debug\Printer2.pdb
+C:\Users\ektor\source\repos\spaghetti-coding-school\Input\obj\Debug\Input.csproj.AssemblyReference.cache
+C:\Users\ektor\source\repos\spaghetti-coding-school\Input\obj\Debug\Input.csproj.CoreCompileInputs.cache
+C:\Users\ektor\source\repos\spaghetti-coding-school\Input\obj\Debug\Input.dll
+C:\Users\ektor\source\repos\spaghetti-coding-school\Input\obj\Debug\Input.pdb
+C:\Users\ektor\source\repos\spaghetti-coding-school\Input\obj\Debug\Input.csproj.CopyComplete

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SCS.Entities.Entity" Collapsed="true">
+    <Position X="7" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCS.Entities.Trainer">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>MainClasses\Trainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCS.Entities.Student">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAAAAAAAAEAAQAAAQAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>MainClasses\Student.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Assignments" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SCS.Entities.Course">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAEAEAAAAEIAgAAAIAAQAAQAAAEAAAAA=</HashCode>
+      <FileName>MainClasses\Course.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="members" />
+      <Property Name="Stream" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SCS.Entities.Assignment">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAEAEAAAAAAAAAAAAAAAAAAAAAAAAAiA=</HashCode>
+      <FileName>MainClasses\Assignment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCS.Entities.CourseAssignment">
+    <Position X="3" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAEAIAAAQAAAAAAAAAAAAAAAAAAAiA=</HashCode>
+      <FileName>SecondaryClasses\CourseAssignment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Assignment" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SCS.Entities.CourseMembers">
+    <Position X="8.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAABQAAQAAAAAAAAAAAACAAIAAAACAAA=</HashCode>
+      <FileName>SecondaryClasses\CourseMembers.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="parent" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="students" />
+      <Field Name="trainers" />
+      <Field Name="assignments" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SCS.Entities.Stream">
+    <Position X="1.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SecondaryClasses\Stream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCS.Entities.StudentAssignment">
+    <Position X="5.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAIIAAQAAAAAAAAAAAAAAAAAAAiA=</HashCode>
+      <FileName>SecondaryClasses\StudentAssignment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Assignment" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

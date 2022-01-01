@@ -1,0 +1,147 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
+      },
+      "Input/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Printer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Input.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Input.dll": {}
+        }
+      },
+      "Pages/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Input": "1.0.0",
+          "Printer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Pages.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pages.dll": {}
+        }
+      },
+      "Printer/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Printer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Printer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
+    },
+    "Input/1.0.0": {
+      "type": "project",
+      "path": "../Input/Input.csproj",
+      "msbuildProject": "../Input/Input.csproj"
+    },
+    "Pages/1.0.0": {
+      "type": "project",
+      "path": "../Pages/Pages.csproj",
+      "msbuildProject": "../Pages/Pages.csproj"
+    },
+    "Printer/1.0.0": {
+      "type": "project",
+      "path": "../Printer/Printer.csproj",
+      "msbuildProject": "../Printer/Printer.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Entities >= 1.0.0",
+      "Pages >= 1.0.0",
+      "Printer >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ektor\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ektor\\source\\repos\\spaghetti-coding-school\\Application\\Spaghetti-Coding-School.csproj",
+      "projectName": "Spaghetti-Coding-School",
+      "projectPath": "C:\\Users\\ektor\\source\\repos\\spaghetti-coding-school\\Application\\Spaghetti-Coding-School.csproj",
+      "packagesPath": "C:\\Users\\ektor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ektor\\source\\repos\\spaghetti-coding-school\\Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ektor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\ektor\\source\\repos\\spaghetti-coding-school\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\ektor\\source\\repos\\spaghetti-coding-school\\Entities\\Entities.csproj"
+            },
+            "C:\\Users\\ektor\\source\\repos\\spaghetti-coding-school\\Pages\\Pages.csproj": {
+              "projectPath": "C:\\Users\\ektor\\source\\repos\\spaghetti-coding-school\\Pages\\Pages.csproj"
+            },
+            "C:\\Users\\ektor\\source\\repos\\spaghetti-coding-school\\Printer\\Printer.csproj": {
+              "projectPath": "C:\\Users\\ektor\\source\\repos\\spaghetti-coding-school\\Printer\\Printer.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

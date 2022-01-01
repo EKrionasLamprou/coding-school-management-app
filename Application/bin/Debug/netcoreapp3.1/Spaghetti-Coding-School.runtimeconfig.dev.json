@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ektor\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ektor\\.nuget\\packages"
+    ]
+  }
+}
